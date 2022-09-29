@@ -5,11 +5,15 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-    <servlet-name>FirstServlet</servlet-name>
-    <servlet-class>org.example.FirstServlet</servlet-class>
+<!--    <servlet-name>FirstServlet</servlet-name>-->
+<!--    <servlet-class>org.example.FirstServlet</servlet-class>-->
+    <servlet-name>DemoServlet</servlet-name>
+    <servlet-class>org.example.DemoServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>FirstServlet</servlet-name>
-    <url-pattern>/FirstServlet</url-pattern>
+<!--    <servlet-name>FirstServlet</servlet-name>-->
+<!--    <url-pattern>/FirstServlet</url-pattern>-->
+    <servlet-name>DemoServlet</servlet-name>
+    <url-pattern>/DemoServlet</url-pattern>
   </servlet-mapping>
 </web-app>
